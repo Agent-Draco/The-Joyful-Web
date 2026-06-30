@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>All Websites | The Joyful Web</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+
+    <script defer src="js/websites.js"></script>
+    <script defer src="js/theme.js"></script>
+    <script defer src="js/random.js"></script>
+    <script defer src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<div id="mathmania-loader">
+
+    <div class="loader">
+
+        <div class="cell d-0"></div>
+        <div class="cell d-1"></div>
+        <div class="cell d-2"></div>
+
+        <div class="cell d-1"></div>
+        <div class="cell d-2"></div>
+        <div class="cell d-3"></div>
+
+        <div class="cell d-2"></div>
+        <div class="cell d-3"></div>
+        <div class="cell d-4"></div>
+
+    </div>
+
+</div>
+
+<div class="theme-toggle">
+
+    <button
+        class="theme-btn active"
+        id="lightBtn">
+
+        ☀️
+
+    </button>
+
+    <button
+        class="theme-btn"
+        id="darkBtn">
+
+        🌙
+
+    </button>
+
+</div>
+
+<div class="layout">
+
+<aside class="sidebar">
+
+<h1>🌐 The Joyful Web</h1>
+
+<p>
+
+A curated collection of websites that make the internet fun again.
+
+</p>
+
+<hr>
+
+<button
+id="randomButton"
+class="teacher-link">
+
+🎲
+
+<br><br>
+
+IDK,<br>
+
+I want something tho
+
+</button>
+
+<hr>
+
+<nav>
+
+<a href="fake-os.html" class="teacher-link">
+
+🖥️ Fake Operating Systems
+
+</a>
+
+<a href="hacker.html" class="teacher-link">
+
+💻 Hacker Simulators
+
+</a>
+
+<a href="games.html" class="teacher-link">
+
+🎮 Games
+
+</a>
+
+<a href="creative.html" class="teacher-link">
+
+🎨 Creative
+
+</a>
+
+<a href="explore.html" class="teacher-link">
+
+🌍 Explore
+
+</a>
+
+<a href="weird.html" class="teacher-link">
+
+😂 Weird Internet
+
+</a>
+
+<hr>
+
+<a href="all.html"
+class="teacher-link">
+
+🌐 All Websites
+
+</a>
+
+</nav>
+
+<div style="margin-top:auto">
+
+Made by Agent Draco
+
+</div>
+
+</aside>
+
+<main class="content">
+
+<div class="container">
+
+<h1>
+
+🌐 All Websites
+
+</h1>
+
+<p>
+
+Browse the entire collection.
+
+</p>
+
+<input
+
+id="search"
+
+type="search"
+
+placeholder="Search websites, vibes or descriptions..."
+
+>
+
+<br><br>
+
+<div
+
+id="websiteGrid"
+
+class="card-grid"
+
+data-category="all">
+
+</div>
+
+<footer>
+
+<hr>
+
+<p>
+
+Made by Agent Draco
+
+</p>
+
+</footer>
+
+</div>
+
+</main>
+
+</div>
+
+<!-- Preview Modal -->
+
+<div id="previewModal" class="hidden">
+
+<div class="container modal">
+
+<button
+id="closeModal"
+class="closeBtn">
+
+✕
+
+</button>
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalDescription"></p>
+
+<div id="modalTags"></div>
+
+<br>
+
+<a
+
+id="visitWebsite"
+
+class="teacher-link"
+
+target="_blank">
+
+Visit Website
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Roulette -->
+
+<div
+
+id="rouletteOverlay"
+
+class="hidden">
+
+<div class="container">
+
+<h2>
+
+🎲 Finding something fun...
+
+</h2>
+
+<h1 id="rouletteName">
+
+Windows 93
+
+</h1>
+
+<p id="rouletteCategory">
+
+Please wait...
+
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
