@@ -1525,9 +1525,7 @@ MODAL
 
     align-items:center;
 
-    background:rgba(10, 15, 25, 0.82);
-
-    backdrop-filter:blur(10px);
+    background:#ffffff;
 
     opacity:0;
 

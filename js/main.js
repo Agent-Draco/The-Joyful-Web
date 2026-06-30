@@ -24,7 +24,7 @@ if (!modal) {
             <h2 id="modalTitle"></h2>
             <p id="modalDescription"></p>
             <div id="modalTags"></div>
-            <a id="visitWebsite" class="teacher-link" href="#">Visit website</a>
+            <button type="button" id="visitWebsite" class="teacher-link">Visit website</button>
         </div>
     `;
 
@@ -175,9 +175,13 @@ function openModal(site){
 
     });
 
-    visitWebsite.href = site.url;
+    visitWebsite.onclick = () => {
 
-    visitWebsite.target = "_blank";
+        window.open(site.url, "_blank", "noopener,noreferrer");
+
+        closePreview();
+
+    };
 
 }
 
